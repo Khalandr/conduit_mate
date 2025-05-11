@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e78a471a-717b-42eb-9f18-5dfd6c9b6991" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fixtures/auth.fixture.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/login.page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/new-article.page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/login.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/new-article.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/test-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/test-helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/before-publish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/auth.fixture.js" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/auth.fixture.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-debug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-failure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/new-article.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/new-article.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/login.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/new-article.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/new-article.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/test-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/test-data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746913518018</updated>
-      <workItem from="1746913519038" duration="16550000" />
+      <workItem from="1746913519038" duration="22609000" />
     </task>
     <servers />
   </component>

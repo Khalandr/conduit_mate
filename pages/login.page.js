@@ -8,7 +8,6 @@ class LoginPage {
         this.errorMessages = page.locator('.error-messages li');
         this.passwordErrors = page.locator('.error-messages > li:has-text("password") li');
         this.emailErrors = page.locator('.error-messages > li:has-text("email") li');
-        this.signUpLink = page.locator('a[href="/user/register"]');
     }
 
     async goto() {
@@ -32,10 +31,6 @@ class LoginPage {
         await this.fillEmail(email);
         await this.fillPassword(password);
         await this.clickSignIn();
-    }
-
-    async getErrorMessages() {
-        return this.page.locator('.error-messages li li').allTextContents();
     }
 }
 

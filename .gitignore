@@ -49,3 +49,10 @@ jspm_packages/
 # OS specific files
 .DS_Store
 Thumbs.db
+
+# IDE - IntelliJ IDEA / WebStorm / PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/

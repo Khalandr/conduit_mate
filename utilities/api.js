@@ -1,18 +1,9 @@
 // utilities/api.js
 const { request } = require('@playwright/test');
-const { faker } = require('@faker-js/faker');
+const { generateUserData } = require('./test-data');
 
-/**
- * Creates a unique user via API
- * @returns {Promise<{email: string, username: string, password: string, token: string}>}
- */
 async function registerNewUser() {
-    const timestamp = new Date().getTime();
-    const randomValue = Math.floor(Math.random() * 1000000);
-
-    const username = `user_${timestamp}_${randomValue}`;
-    const email = `user_${timestamp}_${randomValue}@example.com`;
-    const password = faker.internet.password();
+    const userData = generateUserData();
 
     const apiContext = await request.newContext({
         baseURL: 'https://conduit.mate.academy',
@@ -21,9 +12,9 @@ async function registerNewUser() {
     const registerResponse = await apiContext.post('/api/users', {
         data: {
             user: {
-                username,
-                email,
-                password,
+                username: userData.username,
+                email: userData.email,
+                password: userData.password
             }
         }
     });
@@ -34,13 +25,12 @@ async function registerNewUser() {
 
     const responseData = await registerResponse.json();
     const token = responseData.user.token;
-
     await apiContext.dispose();
 
     return {
-        username,
-        email,
-        password,
+        username: userData.username,
+        email: userData.email,
+        password: userData.password,
         token
     };
 }
