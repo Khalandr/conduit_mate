@@ -51,7 +51,7 @@ jspm_packages/
 Thumbs.db
 
 # IDE - IntelliJ IDEA / WebStorm / PyCharm
-.idea/
+.idea
 *.iml
 *.iws
 *.ipr
