@@ -1,4 +1,3 @@
-// tests/login.spec.js
 const { test, expect } = require('../fixtures/auth.fixture');
 const { LoginPage } = require('../pages/login.page');
 const { invalidLoginData } = require('../utilities/test-data');

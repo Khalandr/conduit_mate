@@ -1,4 +1,3 @@
-// tests/new-article.spec.js
 const { test, expect } = require('../fixtures/auth.fixture');
 const { NewArticlePage } = require('../pages/new-article.page');
 const { generateArticleData, invalidArticleData } = require('../utilities/test-data');

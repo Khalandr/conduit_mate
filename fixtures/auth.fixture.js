@@ -1,4 +1,3 @@
-// fixtures/auth.fixture.js
 const { test: base } = require('@playwright/test');
 const { registerNewUser } = require('../utilities/api');
 

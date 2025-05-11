@@ -1,4 +1,3 @@
-// utilities/test-data.js
 const { faker } = require('@faker-js/faker');
 
 function generateUserData() {

@@ -1,4 +1,3 @@
-// utilities/test-helpers.js
 const { expect } = require('@playwright/test');
 const { NewArticlePage } = require('../pages/new-article.page');
 const { LoginPage } = require('../pages/login.page');

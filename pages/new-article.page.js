@@ -1,4 +1,3 @@
-// pages/new-article.page.js
 class NewArticlePage {
     constructor(page) {
         this.page = page;

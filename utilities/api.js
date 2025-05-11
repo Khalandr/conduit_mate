@@ -1,4 +1,3 @@
-// utilities/api.js
 const { request } = require('@playwright/test');
 const { generateUserData } = require('./test-data');
 
