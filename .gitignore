@@ -1,0 +1,51 @@
+# Playwright specific
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+videos/
+screenshots/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# VS Code specific files
+.vscode/
+*.code-workspace
+
+# OS specific files
+.DS_Store
+Thumbs.db
